@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMGenius.Types", "VMGenius.Types\VMGenius.Types.csproj", "{34B66440-7F98-42D9-B87A-7E77715513FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VMGenius.Types", "VMGenius.Types\VMGenius.Types.csproj", "{34B66440-7F98-42D9-B87A-7E77715513FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VMGenius.DesktopApp", "VMGenius.DesktopApp\VMGenius.DesktopApp.csproj", "{091479F4-79EA-4022-899C-D66CB1BB1317}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VMGenius.DesktopApp", "VMGenius.DesktopApp\VMGenius.DesktopApp.csproj", "{091479F4-79EA-4022-899C-D66CB1BB1317}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VMGenius.FX", "VMGenius.FX\VMGenius.FX.csproj", "{88D975FD-FC66-4ECE-AE98-C89DAF19772A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{091479F4-79EA-4022-899C-D66CB1BB1317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{091479F4-79EA-4022-899C-D66CB1BB1317}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{091479F4-79EA-4022-899C-D66CB1BB1317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88D975FD-FC66-4ECE-AE98-C89DAF19772A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D975FD-FC66-4ECE-AE98-C89DAF19772A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D975FD-FC66-4ECE-AE98-C89DAF19772A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D975FD-FC66-4ECE-AE98-C89DAF19772A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
